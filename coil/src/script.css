@@ -1,0 +1,74 @@
+body {
+	font-family: "Baloo 2", sans-serif;
+	font-size: 50px;
+	background: linear-gradient(-45deg, rgb(238 119 82 / 35%), rgb(231 60 126 / 35%), rgb(35 166 213 / 35%), rgb(35 213 171 / 35%));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+#nametab {
+	margin-left: 65px;
+}
+#TimerHour {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	display: inline-block;
+	border: 0;
+}
+.stream-anim {
+	position: absolute;
+	right: auto;
+	bottom: auto;
+	margin-top: 3px;
+	width: 60px;
+}
+.list-group {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-radius: .5em;
+	width: auto;
+}
+.list-group li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.list-group li:first-child {
+	border-top: 0;
+}
+.list-group .badge {
+	font-size: 80%;
+	border-radius: 10em;
+	min-width: 1.5em;
+	border: 2px solid black;
+	-webkit-animation: rainbow 10s infinite alternate;
+}
+.badge2 {
+	padding-left: 5px;
+}
+img {
+	width: 20px;
+}
+@-webkit-keyframes rainbow {
+	0% {border-color: lime;}
+	25% {border-color: black;}
+	50% {border-color:  lime;}
+	75% {border-color: black;}
+	100% {border-color: lime;}
+}
