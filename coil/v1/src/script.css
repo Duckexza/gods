@@ -19,13 +19,13 @@ body {
 #nametab {
 	margin-left: 65px;
 }
-#TimerHour, #HourTimer {
+#TimerHour {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 img {
-	max-width: 0%;
+	max-width: 100%;
 	vertical-align: middle;
 	display: inline-block;
 	border: 0;
@@ -62,13 +62,13 @@ img {
 .badge2 {
 	padding-left: 5px;
 }
+img {
+	width: 20px;
+}
 @-webkit-keyframes rainbow {
 	0% {border-color: lime;}
 	25% {border-color: black;}
 	50% {border-color:  lime;}
 	75% {border-color: black;}
 	100% {border-color: lime;}
-}
-hr.hr {
-	width: 100%;
 }
